@@ -1,0 +1,39 @@
+{
+  "name": "persiantools",
+  "description": "Persian text library",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ebraminio/persiantools",
+  "author": {
+    "name": "Ebrahim Byagowi",
+    "email": "ebrahim@gnu.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ebraminio/persiantools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebraminio/persiantools/issues"
+  },
+  "licenses": [
+    {
+      "type": "CC-by-SA 3.0",
+      "url": "https://github.com/ebraminio/persiantools/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/persiantools",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-jslint": "~0.2.6",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
